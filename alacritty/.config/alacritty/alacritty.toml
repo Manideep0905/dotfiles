@@ -1,0 +1,93 @@
+[env]
+TERM = "xterm-256color"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Alt|Shift"
+
+[general]
+live_config_reload = true
+
+[terminal]
+
+[colors.bright]
+black = "#444b6a"
+blue = "#7da6ff"
+cyan = "#0db9d7"
+green = "#b9f27c"
+magenta = "#bb9af7"
+red = "#ff7a93"
+white = "#acb0d0"
+yellow = "#ff9e64"
+
+[colors.normal]
+black = "#32344a"
+blue = "#7aa2f7"
+cyan = "#449dab"
+green = "#9ece6a"
+magenta = "#ad8ee6"
+red = "#f7768e"
+white = "#787c99"
+yellow = "#e0af68"
+
+[colors.primary]
+background = "#11121d"
+foreground = "#a9b1d6"
+
+[font]
+size = 12
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+# FiraCode Nerd Font
+# [font.normal]
+# family = "FiraCode Nerd Font"
+# style = "Regular"
+# 
+# [font.bold]
+# family = "FiraCode Nerd Font"
+# style = "Bold"
+# 
+# [font.italic]
+# family = "FiraCode Nerd Font"
+# style = "Italic"
+# 
+# [font.bold_italic]
+# family = "FiraCode Nerd Font"
+# style = "Bold Italic"
+
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[terminal.shell]
+program = "/usr/bin/bash"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 1
+y = 1
+
+[keyboard]

@@ -1,0 +1,14 @@
+format = "[➜](bold green) $directory$git_branch$character"
+
+[directory]
+style = "bold blue"
+read_only = " (ro)"
+
+[git_branch]
+format = "[git:($branch)](bold red) "
+only_attached = true  # Hides branch if not inside a git repo
+
+[character]
+# symbol = "❯✘✔✖✕"
+success_symbol = "[✖](bold yellow)"
+error_symbol = "[✖](bold red)"
